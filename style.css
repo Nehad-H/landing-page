@@ -120,9 +120,38 @@ html, body {
     color: black;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
-/* Quote Area*/
+/* Quote Section*/
 
+.lower-middle {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 0%;
+    height: 300px;
+}
+
+.lower-middle-quote {
+    justify-content: center;
+    align-items: center;
+    margin: 0px 730px;
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.lower-middle-quote-author {
+    display: flex;
+    color: #1F2937;
+    font-size: 50;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-right: 800px;
+    margin-left: auto;
+}
 
