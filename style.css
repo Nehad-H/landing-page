@@ -1,14 +1,15 @@
 * {
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
     font-size: 36px;
-    color: #f9faf8;
     margin: 0;
-    padding: 0;
+    padding: 10px 0px;
 }
 
 .logo {
@@ -23,5 +24,4 @@
     margin-right: 150px;
     gap: 20px;
     font-size: 18px;
-
 }
