@@ -25,3 +25,8 @@
     gap: 20px;
     font-size: 18px;
 }
+
+.upper-body {
+    display: flex;
+    background-color: #1F2937;
+}
