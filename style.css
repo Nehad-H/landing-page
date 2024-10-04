@@ -4,6 +4,10 @@
     color: #f9faf8;
 }
 
+html, body {
+    height: 100%;
+}
+
 /* Header and Landing Page */
 
 .header {
@@ -72,4 +76,53 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Body */
+
+.upper-middle { /* "Some Randon Information" text */
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-middle-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Blue boxes*/
+
+.upper-middle-box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.upper-middle-box,
+.upper-middle-boxs-texts {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    margin: 0px 15px;
+}
+
+.upper-middle-box {
+    align-items: center;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.upper-middle-boxs-texts {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* Quote Area*/
+
 
