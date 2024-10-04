@@ -4,6 +4,8 @@
     color: #f9faf8;
 }
 
+/* Header and Landing Page */
+
 .header {
     display: flex;
     flex-shrink: 0;
@@ -70,3 +72,4 @@
     justify-content: center;
     align-items: center;
 }
+
