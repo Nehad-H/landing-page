@@ -129,22 +129,21 @@ html, body {
 .lower-middle {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
     margin: 0;
     padding: 0%;
-    height: 300px;
-    flex-grow: 1;
+    height: 500px;
+    flex-shrink: 0;
 }
 
 .lower-middle-quote {
-    justify-content: center;
-    align-items: center;
-    margin: 0px 730px;
-    margin-top: 100px;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    max-width: 800px;
     flex-shrink: 0;
 
 }
