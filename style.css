@@ -6,6 +6,7 @@
 
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 /* Header and Landing Page */
@@ -132,6 +133,7 @@ html, body {
     margin: 0;
     padding: 0%;
     height: 300px;
+    flex-grow: 1;
 }
 
 .lower-middle-quote {
@@ -194,3 +196,17 @@ html, body {
     font-weight: bold;
 }
 
+/* Footer */
+
+.footer {
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: wheat;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: auto;
+}
